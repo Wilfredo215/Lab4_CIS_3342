@@ -1,0 +1,42 @@
+body {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+	background-image: url("Images/clock2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.jumbotron{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 35%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: white;
+}
+table {
+	border: 5px solid teal;
+	width:80%;
+    table-layout:fixed; 
+}
+td,th {
+	border: 1px solid teal;
+	color: black;
+	font-weight: bolder;
+}
+input[type="time"] {
+	font-size: 19px;
+}
+input[type="number"] {
+	font-size: 19px;
+}
+input[type="date"] {
+	font-size: 19px;
+}
+
+
+
+	

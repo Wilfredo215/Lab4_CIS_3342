@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS only -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/jumbotron.css">
+        <link rel="stylesheet" href="css/lab1.css">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- JS only -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/jquery-3.3.1.slim.min.js"></script>
+		<script src="js/jquery-3.6.1.min.js"></script>
+        <script src="js/lab1.js"></script>
+		<script src= "js/lab4a.js"></script>
+        <title>Riya's Lab 4! Welcome! </title>
+    </head>
+	
+     <body>
+
+	<table class="jumbotron text-center" id="demo">
+		<tr>
+			<td colspan="5">
+				<p class="text-center" style="color:black;"> Welcome: </p>
+				<p id= "clock">Peaceful but Loud Alarm Clock! Proceed with Caution! </p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan = "5">
+				<button class = "text-center" id = "logout" > Logout </button>
+			</a>
+			<td>
+		</tr>	
+		<tr>
+			<td colspan="5">
+				<input type="date" id="EventDate">
+				<input type="time" id="EventTime">
+				<button class="btn btn-primary" id="setEventDate">Set Event Date</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<input class="manual" id="Days" type="number" value="0" max="365" size="2"></td>
+			<td><input class="manual" id="Hours" type="number" value="0" max="23" size="2"></td>
+			<td><input class="manual" id="Minutes" type="number" value="0" max="59" size="2"></td>
+			<td><input class="manual" id="Seconds" type="number" value="0" max="59" size="2"></td>
+			<td><input class="manual" id="MilliSeconds" type = "number" value="0" size="2"></td>
+		</tr>
+		<tr> 
+			<td>Days</td>
+			<td>Hours</td>
+			<td>Minutes</td>
+			<td>Seconds</td>
+			<td>MilliSeconds</td>
+		</td>
+		<tr>
+			<td colspan="5">
+			<button class="btn btn-success" id="Start">Start</button>
+			<button class="btn btn-warning" id="Snooze">Snooze</button>
+			<button class="btn btn-danger" id="Reset">Reset</button>
+				
+			</td>
+		</tr>
+	</table>
+
+    </body>
+</html>
