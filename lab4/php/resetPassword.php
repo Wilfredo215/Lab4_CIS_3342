@@ -70,11 +70,11 @@
 		$mail->Port=465;
 		$mail->SMTPKeepAlive = true;
 		$mail->Mailer = "smtp";
-		$mail->setFrom("tui64256@temple.edu", "Riya Tailor");
-		$mail->addReplyTo("tui64256@temple.edu","Riya Tailor");
-		$msg = "Welcome to Riya's Lab 4. Here is your Acode: $Acode. Please complete registration on site.";
+		$mail->setFrom("tui85832@temple.edu", "wilfredo Tailor");
+		$mail->addReplyTo("tui85832@temple.edu","wilfredo Tailor");
+		$msg = "Welcome to wilfredo's Lab 4. Here is your Acode: $Acode. Please complete registration on site.";
 		$mail->addAddress($Email,"$FirstName $LastName");
-		$mail->Subject = "Welcome to Riya's Lab4";
+		$mail->Subject = "Welcome to wilfredo's Lab4";
 		$mail->Body = $msg;
 		$mail->send();
 		$_SESSION["RegState"] = 3;

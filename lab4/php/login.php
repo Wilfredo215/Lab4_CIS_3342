@@ -20,7 +20,7 @@
   $_SESSION["RememberMe"] = mysqli_real_escape_string($con, $_POST["RememberMe"]);
   
 
-  $CookieName = md5("tui64256");
+  $CookieName = md5("tui85832");
   $LDatetime = date("Y-m-d h:i:s");
   setcookie($CookieName, md5($Ldatetime), time() + (86400), "/");
     $query = "SELECT * FROM Users WHERE CookieContent = '$CookieContent' and Email = '$Email' ;";

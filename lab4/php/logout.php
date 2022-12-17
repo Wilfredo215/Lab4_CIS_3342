@@ -22,7 +22,7 @@
 		exit();
 	}
 
-	$CookieName = md5("tui64256");
+	$CookieName = md5("tui85832");
 	if ($_SESSION["RememberMe"] != "remember-me"){
 		setcookie($CookieName, "", time() - 3600, "/");
 	}

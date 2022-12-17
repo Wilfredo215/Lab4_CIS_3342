@@ -5,7 +5,7 @@
  * @package PHPMailer
  * @author liqwei <liqwei@liqwei.com>
  * @author Peter Dave Hello <@PeterDaveHello/>
- * @author Jason Chiang <xcojad@gmail.com>
+ * @author Wilfredo Lopez <xcojad@gmail.com>
  */
 
 $PHPMAILER_LANG['authenticate']         = 'SMTP 錯誤：登入失敗。';

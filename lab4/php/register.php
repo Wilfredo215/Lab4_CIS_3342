@@ -49,8 +49,8 @@
 		$mail->Port=465;
 		$mail->SMTPKeepAlive = true;
 		$mail->Mailer = "smtp";
-		$mail->setFrom("tui64256@temple.edu", "Riya Tailor");
-		$mail->addReplyTo("tui64256@temple.edu","Riya Tailor");
+		$mail->setFrom("tui85832@temple.edu", "wilfredo Tailor");
+		$mail->addReplyTo("tui85832@temple.edu","wilfredo Tailor");
 		$msg = "Welcome to Lab4,here is your ACODE: $Acode. Please complete registration.";
 		$mail->addAddress($Email, $FirstName, $LastName);
 		$mail->Subject = "Lab 4 3342";
